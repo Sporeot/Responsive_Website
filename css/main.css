@@ -53,16 +53,6 @@ main {
     color: #888;
 }
 
-#landing-image {
-    background: url("/img/landing.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    flex: 0 1 60vw;
-    margin: 0;
-}
-
 #header {
     padding: 1.2rem;
     text-align: center;
@@ -70,19 +60,27 @@ main {
     color: #fff;
 }
 
-#header h2 {
+#header h2.border-link {
+    text-transform: uppercase;
     border-left: dotted 1px #fff;
     border-right: dotted 1px #fff;
-    display: inline-block;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
+}
+
+h2 {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 0.2rem;
 }
 
 .btn {
     padding: 0.5rem 2rem;
     border: 1px #ccc solid;
     border-radius: 20px;
-    display: inline-block;
-    margin: 1.2rem 0 0;
+    display: flex;
+    width: 20%;
+    margin: auto;
+    margin-top: 0.4rem;
     text-decoration: none;
     color: #333;
     transition: background 300ms ease;
