@@ -33,3 +33,61 @@ main {
     box-shadow: 30px 0 40px rgba(0, 0, 0, 0.2),
     -30px 0px 40px rgba(0, 0, 0, 0.2)
 }
+
+#landing {
+    background: #fff;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw; /* VW is Viewport Width */
+    height: 50vh; /* VH is Viewport Height */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2 {
+    color: #888;
+}
+
+#landing-image {
+    background: url("/img/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#header {
+    padding: 1.2rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 1.2rem 0 0;
+    text-decoration: none;
+    color: #333;
+    transition: background 300ms ease;
+}
+
+.btn:hover {
+    background: #f5d5d5
+}
