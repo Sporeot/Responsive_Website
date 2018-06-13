@@ -1,6 +1,17 @@
 /*  Import Roboto font from Google Fonts CDN */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
+/* Screen Sizes >600px; */
+@media(min-width: 600px) {
+    #landing {
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+}
+
 body {
     font-family: Aria, 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -71,6 +82,22 @@ h2 {
     display: inline;
     text-transform: uppercase;
     padding: 0 0.2rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    padding: 2rem 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 2.2rem;
+    margin-bottom: 0;
 }
 
 .btn {
